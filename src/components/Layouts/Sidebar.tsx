@@ -151,7 +151,7 @@ const Sidebar = () => {
                                             <NavLink to="/pendingcases">{t('pending review')}</NavLink>
                                         </li>
                                         <li>
-                                            <NavLink to="/crypto">{t('needs clarification')}</NavLink>
+                                            <NavLink to="/clarification">{t('needs clarification')}</NavLink>
                                         </li>
                                          <li>
                                             <NavLink to="/crypto">{t('approved')}</NavLink>

@@ -2,6 +2,7 @@ import { lazy } from 'react';
 import AllCases from '../pages/Pages/AlHudaMenu/AllCases';
 import ActiveCases from '../pages/Pages/AlHudaMenu/ActiveCases';
 import PendingCases from '../pages/Pages/AlHudaMenu/PendingCases';
+import NeedsClarification from '../pages/Pages/AlHudaMenu/NeedsClarification';
 const Index = lazy(() => import('../pages/Index'));
 const Analytics = lazy(() => import('../pages/Analytics'));
 const Finance = lazy(() => import('../pages/Finance'));
@@ -129,6 +130,10 @@ const routes = [
      {
         path: '/pendingcases',
         element: <PendingCases />,
+    },
+    {
+        path: '/clarification',
+        element: <NeedsClarification />,
     },
     // finance page
     {
