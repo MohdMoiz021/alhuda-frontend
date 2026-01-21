@@ -3,6 +3,7 @@ import AllCases from '../pages/Pages/AlHudaMenu/AllCases';
 import ActiveCases from '../pages/Pages/AlHudaMenu/ActiveCases';
 import PendingCases from '../pages/Pages/AlHudaMenu/PendingCases';
 import NeedsClarification from '../pages/Pages/AlHudaMenu/NeedsClarification';
+import ApprovedCases from '../pages/Pages/AlHudaMenu/ApprovedCases';
 const Index = lazy(() => import('../pages/Index'));
 const Analytics = lazy(() => import('../pages/Analytics'));
 const Finance = lazy(() => import('../pages/Finance'));
@@ -134,6 +135,10 @@ const routes = [
     {
         path: '/clarification',
         element: <NeedsClarification />,
+    },
+     {
+        path: '/approvedcases',
+        element: <ApprovedCases />,
     },
     // finance page
     {

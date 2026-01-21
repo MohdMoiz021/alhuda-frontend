@@ -154,7 +154,7 @@ const Sidebar = () => {
                                             <NavLink to="/clarification">{t('needs clarification')}</NavLink>
                                         </li>
                                          <li>
-                                            <NavLink to="/crypto">{t('approved')}</NavLink>
+                                            <NavLink to="/approvedcases">{t('approved')}</NavLink>
                                         </li>
                                          <li>
                                             <NavLink to="/crypto">{t('closed')}</NavLink>
