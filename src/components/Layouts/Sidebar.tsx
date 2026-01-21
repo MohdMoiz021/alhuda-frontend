@@ -148,7 +148,7 @@ const Sidebar = () => {
                                             <NavLink to="/activecases">{t('active')}</NavLink>
                                         </li>
                                         <li>
-                                            <NavLink to="/finance">{t('pending review')}</NavLink>
+                                            <NavLink to="/pendingcases">{t('pending review')}</NavLink>
                                         </li>
                                         <li>
                                             <NavLink to="/crypto">{t('needs clarification')}</NavLink>
