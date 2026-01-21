@@ -140,6 +140,10 @@ const routes = [
         path: '/approvedcases',
         element: <ApprovedCases />,
     },
+       {
+        path: '/closedcases',
+        element: <ApprovedCases />,
+    },
     // finance page
     {
         path: '/finance',
