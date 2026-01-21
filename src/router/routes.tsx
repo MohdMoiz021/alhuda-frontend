@@ -4,6 +4,7 @@ import ActiveCases from '../pages/Pages/AlHudaMenu/ActiveCases';
 import PendingCases from '../pages/Pages/AlHudaMenu/PendingCases';
 import NeedsClarification from '../pages/Pages/AlHudaMenu/NeedsClarification';
 import ApprovedCases from '../pages/Pages/AlHudaMenu/ApprovedCases';
+import ClosedCases from '../pages/Pages/AlHudaMenu/ClosedCases';
 const Index = lazy(() => import('../pages/Index'));
 const Analytics = lazy(() => import('../pages/Analytics'));
 const Finance = lazy(() => import('../pages/Finance'));
@@ -142,7 +143,7 @@ const routes = [
     },
        {
         path: '/closedcases',
-        element: <ApprovedCases />,
+        element: <ClosedCases />,
     },
     // finance page
     {
